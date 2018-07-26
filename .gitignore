@@ -1,0 +1,19 @@
+*.gem
+*.rbc
+/.config
+/.yardoc/
+/_yardoc/
+/coverage/
+/doc/
+/rdoc/
+/InstalledFiles
+/pkg/
+/tmp/
+
+## Environment normalization:
+.ruby-gemset
+.ruby-version
+/.bundle/
+/lib/bundler/man/
+/vendor/bundle
+Gemfile.lock

@@ -1,0 +1,138 @@
+AllCops:
+  Exclude:
+    - bin/**/*
+    - db/**/*
+    - lib/generators/**/*
+    - node_modules/**/*
+    - vendor/ruby/**/*
+  TargetRubyVersion: 2.5
+
+Layout/AlignHash:
+  EnforcedLastArgumentHashStyle: ignore_implicit
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/ClassStructure:
+  Enabled: true
+  Categories:
+    module_inclusion:
+      - include
+      - prepend
+      - extend
+    scopes:
+      - default_scope
+      - scope
+    attributes:
+      - attr_accessor
+      - attr_reader
+      - attr_writer
+      - attribute
+    associations:
+      - belongs_to
+      - has_many
+      - has_one
+    validations:
+      - validates
+      - validate
+    hooks:
+      - after_commit
+      - after_create
+      - after_destroy
+      - after_rollback
+      - after_save
+      - after_update
+      - after_validation
+      - around_create
+      - around_destroy
+      - around_save
+      - around_update
+      - before_create
+      - before_destroy
+      - before_save
+      - before_update
+      - before_validation
+  ExpectedOrder:
+    - module_inclusion
+    - scopes
+    - constants
+    - attributes
+    - associations
+    - validations
+    - hooks
+    - public_class_methods
+    - initializer
+    - public_methods
+    - protected_methods
+    - private_methods
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Layout/SpaceBeforeFirstArg:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 25
+  Exclude:
+    - spec/**/*
+
+Metrics/BlockLength:
+  Exclude:
+    - config/environments/*
+    - config/routes.rb
+    - lib/tasks/**/*
+    - spec/**/*
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+Metrics/LineLength:
+  Enabled: true
+  Exclude:
+    - config/**/*
+  Max: 125
+
+Metrics/MethodLength:
+  Max: 25
+  Exclude:
+    - spec/**/*
+
+Naming/FileName:
+  Enabled: false
+
+Rails:
+  Enabled: true
+
+Rails/Validation:
+  Include:
+    - app/models/**/*.rb
+    - app/forms/**/*.rb
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: nested
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+
+Style/FormatString:
+  EnforcedStyle: sprintf
+
+Style/RegexpLiteral:
+  EnforcedStyle: mixed
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: single_quotes
+
+Style/TrivialAccessors:
+  AllowPredicates: true
+  AllowDSLWriters: true
