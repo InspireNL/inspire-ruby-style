@@ -27,7 +27,7 @@ but please note that the style guide does **not** follow [SemVer](https://semver
 
 ### Added
 
-- Include `rubocop-rspec` by default.
+- Enable [rubocop-rspec](https://github.com/rubocop-hq/rubocop-rspec) by default.
 
 ## [v1]
 
