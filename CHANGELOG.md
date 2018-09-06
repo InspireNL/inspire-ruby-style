@@ -9,7 +9,7 @@ but please note that the style guide does **not** follow [SemVer](https://semver
 
 ### Added
 
-- Include `rubocop-rspec` by default.
+-
 
 ### Changed
 
@@ -23,6 +23,12 @@ but please note that the style guide does **not** follow [SemVer](https://semver
 
 -
 
+## [v2]
+
+### Added
+
+- Include `rubocop-rspec` by default.
+
 ## [v1]
 
 ### Added
@@ -35,3 +41,4 @@ but please note that the style guide does **not** follow [SemVer](https://semver
 
 [Unreleased]: https://github.com/InspireNL/Manoflex/compare/v1...HEAD
 [v1]: https://github.com/InspireNL/Manoflex/tree/v1
+[v2]: https://github.com/InspireNL/inspire-ruby-style/tree/v2

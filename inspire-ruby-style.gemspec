@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name     = "inspire-ruby-style"
-  spec.version  = "1.1.0"
+  spec.version  = "2.0.0"
   spec.authors  = ["Inspire Innovation BV"]
   spec.email    = ["info@inspire.nl"]
 
