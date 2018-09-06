@@ -9,7 +9,7 @@ but please note that the style guide does **not** follow [SemVer](https://semver
 
 ### Added
 
--
+- Include `rubocop-rspec` by default.
 
 ### Changed
 

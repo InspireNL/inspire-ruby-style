@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name     = "inspire-ruby-style"
-  spec.version  = "1.0.0"
+  spec.version  = "1.1.0"
   spec.authors  = ["Inspire Innovation BV"]
   spec.email    = ["info@inspire.nl"]
 
@@ -15,6 +15,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rubocop", "~> 0.58"
+  spec.add_dependency "rubocop-rspec", "~> 1.29"
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
 end
