@@ -23,6 +23,12 @@ but please note that the style guide does **not** follow [SemVer](https://semver
 
 -
 
+## [v2]
+
+### Added
+
+- Enable [rubocop-rspec](https://github.com/rubocop-hq/rubocop-rspec) by default.
+
 ## [v1]
 
 ### Added
@@ -33,5 +39,6 @@ but please note that the style guide does **not** follow [SemVer](https://semver
 
 - `Naming/MemoizedInstanceVariableName` (project-specific)
 
-[Unreleased]: https://github.com/InspireNL/Manoflex/compare/v1...HEAD
-[v1]: https://github.com/InspireNL/Manoflex/tree/v1
+[Unreleased]: https://github.com/InspireNL/inspire-ruby-style/compare/v1...HEAD
+[v2]: https://github.com/InspireNL/inspire-ruby-style/tree/v2
+[v1]: https://github.com/InspireNL/inspire-ruby-style/tree/v1
