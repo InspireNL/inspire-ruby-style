@@ -23,6 +23,12 @@ but please note that the style guide does **not** follow [SemVer](https://semver
 
 -
 
+## [v3]
+
+### Changed
+
+- Prefix paths with a wildcard to match nested directories
+
 ## [v2]
 
 ### Added
@@ -39,6 +45,7 @@ but please note that the style guide does **not** follow [SemVer](https://semver
 
 - `Naming/MemoizedInstanceVariableName` (project-specific)
 
-[Unreleased]: https://github.com/InspireNL/inspire-ruby-style/compare/v1...HEAD
+[Unreleased]: https://github.com/InspireNL/inspire-ruby-style/compare/v3...HEAD
+[v3]: https://github.com/InspireNL/inspire-ruby-style/tree/v3
 [v2]: https://github.com/InspireNL/inspire-ruby-style/tree/v2
 [v1]: https://github.com/InspireNL/inspire-ruby-style/tree/v1
