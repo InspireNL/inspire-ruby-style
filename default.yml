@@ -2,11 +2,11 @@ require: rubocop-rspec
 
 AllCops:
   Exclude:
-    - bin/**/*
-    - db/**/*
-    - lib/generators/**/*
-    - node_modules/**/*
-    - vendor/ruby/**/*
+    - "**/bin/**/*"
+    - "**/db/**/*"
+    - "**/lib/generators/**/*"
+    - "**/node_modules/**/*"
+    - "**/vendor/ruby/**/*"
   TargetRubyVersion: 2.5
 
 Layout/AlignHash:
@@ -80,14 +80,14 @@ Layout/SpaceBeforeFirstArg:
 Metrics/AbcSize:
   Max: 25
   Exclude:
-    - spec/**/*
+    - "**/spec/**/*"
 
 Metrics/BlockLength:
   Exclude:
-    - config/environments/*
-    - config/routes.rb
-    - lib/tasks/**/*
-    - spec/**/*
+    - "**/config/environments/*"
+    - "**/config/routes.rb"
+    - "**/lib/tasks/**/*"
+    - "**/spec/**/*"
 
 Metrics/CyclomaticComplexity:
   Max: 10
@@ -95,13 +95,13 @@ Metrics/CyclomaticComplexity:
 Metrics/LineLength:
   Enabled: true
   Exclude:
-    - config/**/*
+    - "**/config/**/*"
   Max: 125
 
 Metrics/MethodLength:
   Max: 25
   Exclude:
-    - spec/**/*
+    - "**/spec/**/*"
 
 Naming/FileName:
   Enabled: false
@@ -111,8 +111,8 @@ Rails:
 
 Rails/Validation:
   Include:
-    - app/models/**/*.rb
-    - app/forms/**/*.rb
+    - "**/app/forms/**/*.rb"
+    - "**/app/models/**/*.rb"
 
 Style/ClassAndModuleChildren:
   EnforcedStyle: nested
