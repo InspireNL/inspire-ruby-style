@@ -1,1 +1,6 @@
 inherit_from: default.yml
+
+# This gem does not have any classes or modules that could be tested. Instead,
+# the specs describe general concepts.
+RSpec/DescribeClass:
+  Enabled: false

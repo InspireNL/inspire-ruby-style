@@ -1,5 +1,7 @@
 # Inspire's Ruby Style
 
+[![CircleCI branch](https://img.shields.io/circleci/project/github/InspireNL/inspire-ruby-style/master.svg)](https://circleci.com/gh/InspireNL/inspire-ruby-style)
+
 This gem packages [Inspire]'s [Rubocop] configuration so that it can easily be
 used in multiple projects. Projects can inherit the global configuration, and
 easily add or overwrite rules as necessary.
@@ -15,7 +17,7 @@ with the newer version.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "inspire-ruby-style", github: "inspirenl/inspire-ruby-style", tag: "v1"
+gem "inspire-ruby-style", github: "inspirenl/inspire-ruby-style", tag: "v3"
 ```
 
 And then execute:
