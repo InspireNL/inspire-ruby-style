@@ -8,7 +8,11 @@
 /rdoc/
 /InstalledFiles
 /pkg/
+/spec/reports
 /tmp/
+
+# RSpec failure tracking
+.rspec_status
 
 ## Environment normalization:
 .ruby-gemset
