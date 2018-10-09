@@ -23,6 +23,10 @@ but please note that the style guide does **not** follow [SemVer](https://semver
 
 -
 
+## [v4]
+
+- Disable `Lint/AmbiguousBlockAssociation` for specs
+
 ## [v3]
 
 ### Changed
@@ -45,7 +49,8 @@ but please note that the style guide does **not** follow [SemVer](https://semver
 
 - `Naming/MemoizedInstanceVariableName` (project-specific)
 
-[Unreleased]: https://github.com/InspireNL/inspire-ruby-style/compare/v3...HEAD
+[Unreleased]: https://github.com/InspireNL/inspire-ruby-style/compare/v4...HEAD
+[v4]: https://github.com/InspireNL/inspire-ruby-style/tree/v4
 [v3]: https://github.com/InspireNL/inspire-ruby-style/tree/v3
 [v2]: https://github.com/InspireNL/inspire-ruby-style/tree/v2
 [v1]: https://github.com/InspireNL/inspire-ruby-style/tree/v1

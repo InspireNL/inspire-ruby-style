@@ -17,7 +17,7 @@ with the newer version.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "inspire-ruby-style", github: "inspirenl/inspire-ruby-style", tag: "v3"
+gem "inspire-ruby-style", github: "inspirenl/inspire-ruby-style", tag: "v4"
 ```
 
 And then execute:

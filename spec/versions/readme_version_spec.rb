@@ -3,6 +3,8 @@
 require "spec_helper"
 
 RSpec.describe "README version" do
+  subject(:version) { most_recent_tag }
+
   let(:readme) { Pathname.new(__dir__).join("..", "..", "README.md") }
   let(:regex) { %r{gem "inspire-ruby-style", github: "inspirenl/inspire-ruby-style", tag: "v([\d]+)"} }
 
@@ -11,8 +13,6 @@ RSpec.describe "README version" do
       line.match(regex) { |tag| return tag[1] }
     end
   end
-
-  subject(:version) { most_recent_tag }
 
   it "matches the major version in the gemspec" do
     gem_version = Gem.loaded_specs["inspire-ruby-style"].version.version

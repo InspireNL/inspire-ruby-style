@@ -77,6 +77,12 @@ Layout/MultilineOperationIndentation:
 Layout/SpaceBeforeFirstArg:
   Enabled: false
 
+# This cop is incompatible with RSpec's idiom to use blocks as arguments for
+# many methods. Read more: https://github.com/rubocop-hq/rubocop/issues/4222
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - "**/spec/**/*"
+
 Metrics/AbcSize:
   Max: 25
   Exclude:
