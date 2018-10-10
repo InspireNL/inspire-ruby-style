@@ -11,6 +11,8 @@ RSpec.describe "Changelog version" do
     false
   end
 
+  subject(:version) { most_recent_tag }
+
   let(:changelog) { Pathname.new(__dir__).join("..", "..", "CHANGELOG.md") }
 
   let(:most_recent_tag) do
@@ -18,8 +20,6 @@ RSpec.describe "Changelog version" do
       line.match(/\A## \[v([\d]+)\]/) { |tag| return tag[1] }
     end
   end
-
-  subject(:version) { most_recent_tag }
 
   it "matches the major version in the gemspec" do
     gem_version = Gem.loaded_specs["inspire-ruby-style"].version.version
